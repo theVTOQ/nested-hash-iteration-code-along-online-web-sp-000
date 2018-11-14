@@ -13,7 +13,7 @@ require 'pry'
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
   # }
-  =begin
+
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -27,14 +27,14 @@ require 'pry'
     }
   }
 
-def remove_strawberry(contacts)
+def remove_strawberry_alternate_version(contacts)
 
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete_if {|flavor|
     flavor == "strawberry"
   }
 
 end
-=end
+
 def remove_strawberry(contacts)
   contacts.each do |person, contact_details_hash|
     contact_details_hash.each do |attribute, data|
