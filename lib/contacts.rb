@@ -15,5 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts["Freedy Mercury"][:favorite_ice_cream_flavors].select! {|flavor|
+    flavor != "strawberry"
+  }
 end
