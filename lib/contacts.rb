@@ -13,6 +13,7 @@ require 'pry'
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
   # }
+  =begin
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -33,7 +34,7 @@ def remove_strawberry(contacts)
   }
 
 end
-
+=end
 def remove_strawberry_code_along(contacts)
   contacts.each do |person, contact_details_hash|
     contact_details_hash.each do |attribute, data|
