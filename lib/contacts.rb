@@ -45,3 +45,4 @@ def remove_strawberry_code_along(contacts)
 end
 
 remove_strawberry(contacts)
+puts contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
