@@ -16,7 +16,7 @@ require 'pry'
 
 def remove_strawberry(contacts)
   #flavors = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].select {|flavor|
+  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].select do |flavor|
     flavor != "strawberry"
-  }
+  end
 end
