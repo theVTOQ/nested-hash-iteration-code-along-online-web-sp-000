@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete_if {|flavor|
     flavor == "strawberry"
   }
-  binding.pry
+  
 end
 
 def remove_strawberry_code_along(contacts)
